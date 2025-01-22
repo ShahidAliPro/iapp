@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "iApp",
+    "slug": "iapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shahidalipro.iapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.shahidalipro.iapp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4155af07-b120-4e7a-b1ad-5cc8e69aedef"
+      }
+    },
+    "owner": "shahidalipro",
+    "updates": {
+      "url": "https://u.expo.dev/4155af07-b120-4e7a-b1ad-5cc8e69aedef"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
